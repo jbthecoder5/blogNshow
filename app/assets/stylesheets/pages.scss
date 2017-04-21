@@ -1,3 +1,36 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+.landing-page {
+  overflow: hidden;
+
+  background: image_url('blurred-window.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  width:100%;
+  height:100%;
+}
+
+
+.v1 {
+}
+
+.v2 {
+
+}
+
+.v3 {
+}
