@@ -18,6 +18,9 @@ gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.6'
 
 
+# gem for authenication ::: devise, bcrypt, or clearance
+
+
 
 
 

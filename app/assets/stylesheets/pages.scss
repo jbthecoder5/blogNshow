@@ -7,14 +7,22 @@ html, body {
 }
 
 
-
+.app-name,
+.app-summary {
+  color: #121414;
+  font-weight: bold;
+  text-align: center;
+}
 
 
 
 
 
 .landing-page {
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
   background: image_url('blurred-window.jpg');
   background-size: 100% 100%;
@@ -22,4 +30,9 @@ html, body {
   background-origin: content-box;
   width:100%;
   height:100%;
+  overflow: hidden;
+
+  .langing-content {
+
+  }
 }
