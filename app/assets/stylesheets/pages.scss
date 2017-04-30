@@ -7,9 +7,16 @@ html, body {
 }
 
 
-.app-name,
+.app-name {
+  color: #f2eaea;
+  text-shadow: 5px 5px 5px rgb(23, 23, 17);
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .app-summary {
-  color: #121414;
+  color: rgb(145, 145, 145);
   font-weight: bold;
   text-align: center;
 }
@@ -31,8 +38,4 @@ html, body {
   width:100%;
   height:100%;
   overflow: hidden;
-
-  .langing-content {
-
-  }
 }
