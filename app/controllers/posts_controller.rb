@@ -13,7 +13,7 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to root_url, notice: 'Post created'
     else
-      redirect_to new_post_path, notice: 'Post creation failed. Try again!'
+      redirect_to new_post_path, alert: 'Post creation failed. Try again!'
     end
   end
 

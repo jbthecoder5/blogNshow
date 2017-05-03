@@ -5,7 +5,7 @@
   <div class="form-group">
     <%= f.label :user_id %>
     <% if current_user %>
-    <%= f.text_field :user_id, required: true, class: 'form-control', value:current_user.id  %>
+    <%= f.text_field :user_id, required: true, readonly: true, class: 'form-control', value:current_user.id  %>
     <% else %>
         <%= f.text_field :user_id, required: true, class: 'form-control'%>
     <% end %>
