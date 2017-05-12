@@ -9,8 +9,8 @@
   </head>
 
   <body>
-    <% if current_user %>
 
+    <% if current_user %>  <%# notification logic for users signed in %>
       <% if notice %>
       <div class="alert alert-success alert-dismissible" role="alert">
          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -18,7 +18,6 @@
          </button>
          <%= notice %>
        </div>
-
       <% elsif alert %>
       <div class="alert alert-danger alert-dismissible" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -29,6 +28,7 @@
       <% end %>
     <% end %>
 
+    <%= render 'shared/footer' %>
     <%= yield %>
   </body>
 </html>
